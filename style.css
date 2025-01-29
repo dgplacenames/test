@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+body {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Noto Serif';
+  font-size: 13pt;
+  line-height: 20pt;
+  margin: 0;
+}
+
+main {
+  flex: 2;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+  padding-bottom: 2rem;
+  max-width: 37rem;
+  text-align: justify;
+  position: relative;
+}
+
+h1 {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 18pt;
+  line-height: 20pt;
+  letter-spacing: 1px;
+  margin: 1rem 0 1rem 0;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16pt;
+  line-height: 20pt;
+  
+}
+
+h2.bylinex {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 14pt;
+  line-height: 20pt;
+  margin: 1em 0 1em 0;
+}
+h2.center {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 16pt;
+  line-height: 20pt;
+  margin: 1em 0 1em 0;
+}
+.xsection h2 {
+  text-align: center;
+  font-size: 13pt;
+  font-style: italic;
+  font-variant: normal;
+  margin: 1rem 0 1rem 0;
+}
+
+h3 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 12pt;
+  font-style: italic;
+  font-variant: normal;
+}
+
+h4 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 12pt;
+  font-style: italic;
+  font-variant: normal;
+}
+
+p:first-child{
+    padding-left: 1rem;
+    text-indent: -1rem;
+}
+
+p {
+  padding-left: 1rem;
+  text-indent: 1rem;
+  margin: 0;
+}
+
+p.centre {
+  text-align: center;
+}
+
+p.note {
+  font-size: 80%;
+  text-align: center;
+}
+
+p.no_indent {
+  margin: 0;
+  text-indent: 0em;
+}
+
+em {
+  font-style: italic;
+}
+
+.entry {
+    xpadding-bottom: 0.5rem;
+    padding-bottom: 2rem;
+    xbackground-color: rgb(230, 199, 222);
+}
+
+.form.lemma{
+  background-color: lightgreen;
+}
+
+.hw {
+    font-variant: small-caps;
+    font-size: 16pt;
+    xfont-weight: bold;
+}
+
+.titlePage {
+    text-align: center;
+}
+
+.titlePage .title .desc {
+  font-size: 14pt;
+}
+
+.titlePage .title .main {
+    font-size: 32pt;
+}
+
+.titlePage .title .sub {
+    font-size: 16pt;
+}
+
+
+.titlePage .argument {
+  text-align: justify;
+  font-size: 12pt;
+  line-height: 18pt;
+}
+
+.titlePage .epigraph {
+  text-align: justify;
+  font-size: 10pt;
+  padding: 0rem 6rem;
+  line-height: 14pt;
+}
+
+.titlePage .byline {
+  font-size: 10pt;   
+}
+
+.titlePage .docAuthor {
+    font-size: 16pt;   
+  }
+
+.docImprint{
+    font-size: 12pt;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+xxxtr:not(:nth-child(-n+1)) {
+    font-size: 12pt;
+}
+
+
+
+td.left {
+    text-align: left;
+}
+
+td.right {
+    text-align: right;
+}
+
+
+.titlePage .docDate {
+    font-size: 10pt;
+}
+
+.sc {
+  font-variant: small-caps;
+}
+
+.xbyline {
+  text-align: right;
+}
+
+.place.head {
+  font-style: italic;
+}
+
+.source {
+  text-align: right;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.gothic{
+  font-family: 'UnifrakturCook';
+  font-size: 28pt;
+}
+
+span.pb>a {
+  text-decoration: none;
+  font-size: 10pt;
+  xxxcolor: var(--page-number-color);
+  position:absolute;
+  right: 100%;
+  padding-right: 2em;
+  font-style: normal;
+  font-weight: normal;
+}
+
+span.pb>a::before {
+  content: 'p';
+}
+
+span.pb>a:hover {
+  text-decoration: underline;
+}
+
+.scene{
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.sp {
+  display: flex;
+  flex-direction: row;
+}
+
+.speaker {
+  width: 22%;
+  padding-left: 3em;
+  font-style: italic;
+  text-align: left;
+}
+
+.scene .lg {
+  width: 78%;
+  margin:0;
+
+}
+.scene .l{
+  text-indent: 0;
+}
+
+.stage.right{
+  text-align: right;
+}
+.stage.center{
+  text-align: center;
+}
+.stage.left{
+  text-align: left;
+  text-indent: 1em;
+}
+.character{
+  font-style: normal;
+  font-variant: small-caps;
+}
+.characters{
+  text-align: center;
+  font-style: italic;
+}
+.test{
+  text-indent: 10rem;
+}
+
+.wrap{
+  text-align: center;
+}
+
+.verse{
+  display: inline-block;
+  text-align: left;
+}
+
+.verse .title{
+  text-align: center;
+}
+
+.lg {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.l{
+  text-indent: 2rem;
+}
+
+.l.indent{
+  text-indent: 3rem;
+}
+.lg.even .l:nth-child(even) {
+  text-indent: 12rem;
+}
+
+.lg.last .l:last-child {
+  text-indent: 14rem;
+}
+
+
+.ten{
+  text-indent: 10rem;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  background: #333;
+  overflow-x: hidden;
+  padding: 0px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #f2f2f2;
+  display: block;
+}
+
+.sidenav a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position:fixed;
+    overflow: hidden;
+    top: 0%;
+    left:0%;
+    text-align: center;
+  }
+  .sidenav a {
+  display:inline-block;
+  text-align: center;
+  
+}
+}
+
+@media screen and (max-width: 500px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+}
