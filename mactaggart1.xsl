@@ -21,13 +21,6 @@
         
     </xsl:template>
 
-<xsl:template
-        match="body">
-        <body>
-            <xsl:apply-templates />
-        </body>
-    </xsl:template>
-
 
     <xsl:template
         match="head">
