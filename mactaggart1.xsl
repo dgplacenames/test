@@ -11,7 +11,14 @@
             </head>
             <body>
                 <div id="#container">
-                    <main>
+                    <main style="flex: 2;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+  padding-bottom: 2rem;
+  max-width: 37rem;
+  text-align: justify;
+  position: relative;">
                         <xsl:apply-templates select="//text" />
                     </main>
 
