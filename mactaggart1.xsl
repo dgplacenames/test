@@ -9,7 +9,12 @@
                 <link href="C:\Users\Catherine\Documents\Mactaggart\style.css" rel="stylesheet" type="text/css" />
                 <title>Mactaggart</title>
             </head>
-            <body>
+            <body style="display: flex;
+  justify-content: space-around;
+  font-family: 'Noto Serif';
+  font-size: 13pt;
+  line-height: 20pt;
+  margin: 0;">
                 <div id="#container">
                     <main style="flex: 2;
   margin-top: 3rem;
