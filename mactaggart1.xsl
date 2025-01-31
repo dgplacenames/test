@@ -50,7 +50,9 @@
     </xsl:template>
 
     <xsl:template match="pb">
-        <span id="{@n}" class="pb">
+        <span id="{@n}" class="pb" style="position:absolute;
+  right: 100%;
+  padding-right: 2em;">
             <a href="{@facs}" target="_blank">
                 <xsl:value-of select="@n" />
                 <xsl:apply-templates />
