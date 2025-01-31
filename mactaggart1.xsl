@@ -42,11 +42,20 @@
     </xsl:template>
 
 
-        <xsl:template
+    <xsl:template
         match="p">
         <p>
             <xsl:apply-templates />
         </p>
+    </xsl:template>
+
+    <xsl:template match="pb">
+        <span id="{@n}" class="pb">
+            <a href="{@facs}" target="_blank">
+                <xsl:value-of select="@n" />
+                <xsl:apply-templates />
+            </a>
+        </span>
     </xsl:template>
 
 </xsl:stylesheet>
